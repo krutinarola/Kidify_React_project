@@ -8,6 +8,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { GrPinterest } from "react-icons/gr";
 import { AiOutlineYoutube } from "react-icons/ai";
 
+
 function Footer() {
   return (
     <footer className="pt-12 ">
@@ -35,8 +36,9 @@ function Footer() {
             </div>
             <div className="visible basis-4 mb-7 shrink-0">
               <h5 className=" text-uppercase mb-7 font-bold text-xl ml-0">Company</h5>
-              <div className="menu-company-container">
-                <ul  className="menu ml-0 ">
+              {/* Menu-company-container */}
+              <div className="">
+                <ul  className=" ml-0 ">
                   <li class="mb-3 text-base hover:underline ">
                   <MdKeyboardArrowRight className='text-neutral-500 text-xl inline' />
                     <a href="#">About Us</a>
@@ -63,7 +65,7 @@ function Footer() {
             <div  className="basis-4 mb-7 shrink-0 ">
               <h5 className=" text-uppercase mb-7 font-bold text-xl ml-3">Customers</h5>
               <div className="container">
-                <ul  className="menu ml-0">
+                <ul  className=" ml-0">
                   <li  className="mb-3 text-base hover:underline">
                   <MdKeyboardArrowRight className='text-neutral-500 text-xl inline' />
                     <a href="#">Contact Us</a>
